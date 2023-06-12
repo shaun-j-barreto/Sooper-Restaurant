@@ -1,0 +1,133 @@
+ *{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(7, 7, 7);
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+.hero-header{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 10px;
+}
+.hero-image{
+   max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    /* position: relative; */
+}
+
+.navbar{
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+
+}
+.logo{
+    width:80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.hamburger{
+   display: block;
+   position: fixed;
+   width: 35px;
+   cursor: pointer;
+   float: right;
+   margin-right: 30px;
+   right: 10px;
+   top: 0px;
+   margin-top: 30px;
+   outline: none;
+   border: none;
+   background: none;
+   appearance: none;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before{
+    display: block;
+    content: '';
+    width: 40px;
+    height: 5px;
+    margin: 6px 0px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 3px;
+}
+.hamburger.is-active:before{
+    transform: rotate(45deg) translate(10px, 6px);
+}
+.hamburger.is-active:after{
+    transform: rotate(-45deg) translate(10px, -6px);
+}
+.hamburger.is-active .bar{
+    opacity: 0;
+}
+.ham-navbar{
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    z-index: 98;
+    background-color: rgba(0, 0, 0, 0.897);
+    padding-top: 120px;
+    transition: 0.4s;
+}
+.ham-navbar.is-active{
+    left:0%;
+}
+.ham-navbar a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    max-width: 200px;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    margin: 0 auto 16px;
+
+}
+
+
+
+
+
+
+
+
+
+/* ============================MEDIA Queries =======================================*/
+/* ============================MEDIA Queries =======================================*/
+/* ============================MEDIA Queries =======================================*/
+/* ============================MEDIA Queries =======================================*/
+/* ============================MEDIA Queries =======================================*/
+/* ============================MEDIA Queries =======================================*/
+/* ============================MEDIA Queries =======================================*/
+@media screen and (max-width: 836px){
+    .hero-image{
+        object-fit: cover;
+        height: 600px;
+        overflow: hidden;
+    }
+    .hero-header{
+        font-size: 50px;
+    }
+}
