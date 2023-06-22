@@ -352,17 +352,22 @@ body{
         width: 90%;
         margin: 0 auto;
         margin-top: 100px;
+        margin-bottom: 80px;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.527);
 }
+
 .image-gallery-grid > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border: 1px solid rgb(68, 49, 0);
 }
 .image-section{
     width: 100%;
     height: 100%;
     overflow: hidden;
     position: relative;
+    border: 1px solid rgb(68, 49, 0);
 }
 .gallery-heading{
     font-family: 'Chakra Petch', sans-serif;
@@ -415,7 +420,7 @@ body{
     border-radius: 5px;
     position: relative;
     margin-left: 130px;
-    margin-top: 170px;
+    margin-top: 190px;
     margin-bottom: 20px;
     background: linear-gradient(60deg,
                                 #A57c01,
@@ -426,7 +431,6 @@ body{
                                 #C9A401);
     cursor: pointer; 
     line-height: 40px;
-
 }
 .view-button::before{
     content: ' ';
@@ -446,11 +450,10 @@ body{
                                 #EDCB01,
                                 #DBB701,
                                 #C9A401);
-    transition: 0.3 opacity ease-in-out;
 }
 .view-button:hover::before{
     opacity: 1;
-    transition: 0.3 opacity ease-in-out;
+    transition: 0.2s opacity ease-in-out;
     filter: blur(25px);
     background: linear-gradient(60deg,
                                 #A57c01,
@@ -478,6 +481,82 @@ body{
     top: 7%;
     left: 3%;
     background-color: var(--secondary-color);
+}
+.newsletter-container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid rgb(145, 104, 2);
+    margin-bottom: 100px;
+}
+.news-heading-one{
+text-align: center;
+font-family: 'Chakra Petch', sans-serif;
+font-size: 25px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 30px;
+color: var(--priamary-color);
+letter-spacing: 2px;
+}
+.news-heading-two{
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--priamary-color);
+    letter-spacing: 2px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    margin-top: 10px;
+}
+.news-content{
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--priamary-color);
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.input-field{
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+.input-field > input{
+    width: 72%;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid var(--priamary-color);
+    color: var(--priamary-color);
+    font-size: 16px;
+    padding-left: 10px;
+    outline: none;
+}
+.input-field > input:focus{
+    box-shadow: 2px 0px 20px 0px rgba(218, 165, 32, 0.555);
+}
+.news-button{
+    margin-top: 20px;
+    text-align: center;
+}
+.news-button > button{ 
+    border: 1px solid var(--priamary-color);
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--priamary-color);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 7px 50px 7px 50px;
+    letter-spacing: 2px;
+    box-shadow: 2px 0px 10px 0px rgba(218, 165, 32, 0.37);
+    margin-bottom: 20px;
+}
+.news-button > button:hover{
+    box-shadow: 2px 0px 20px 0px rgba(218, 165, 32, 0.555);
+    background-color: rgb(14, 10, 0);
 }
 /* ============================MEDIA Queries =======================================*/
 /* ============================MEDIA Queries =======================================*/
