@@ -80,7 +80,7 @@ body{
     background-color: rgba(0, 0, 0, 0.658);
 }
 .logo{
-    width:80px;
+    width:70px;
     height: 80px;
     margin-left: 10px;
     margin-top: 10px;
@@ -665,7 +665,6 @@ footer{
     grid-area: 1/2/2/3;
 }
 .footer-content{
-    /* background-color: rgba(0, 0, 0, 0.336); */
     padding: 10px;
 }
 .footer-content.footer-one{
@@ -695,7 +694,6 @@ footer{
     margin-left: 40px;
     margin-top: 10px;
     font-family: 'Chakra Petch', sans-serif;
-    /* background-color: black; */
 }
 .sitemap , .location-section , .opening-section > h4{
     color: var(--priamary-color);
@@ -738,7 +736,9 @@ footer{
     }
 }
 @media screen and (max-width: 836px){
-
+    .hamburger{
+        margin-right: 10px;
+    }
     .hero-header{
         font-size: 40px;
     }
@@ -764,9 +764,8 @@ footer{
 }
 .footer-grid > img{
     grid-area: 1/1/2/2;
-    width: 200px;
+    width: 190px;
     height: 200px;
-    /* padding-left: 55px; */
 }
 .footer-heading{
     margin: 0px;
@@ -1006,8 +1005,23 @@ footer{
     }
 }
 @media screen and (max-width: 450px) {
+    .hamburger{
+        margin-right: 5px;
+    }
+    .hamburger .bar, .hamburger:after, .hamburger:before{
+        width: 34px;
+        height: 4px;
+        margin: 4px 0px;
+        border-radius: 3px;
+    }
+    .hamburger.is-active:before{
+        transform: rotate(45deg) translate(6px, 7px);
+    }
+    .hamburger.is-active:after{
+        transform: rotate(-45deg) translate(5px, -6px);
+    }
     .logo{
-        width: 60px;
+        width: 50px;
         height: 60px;
     }
     .view-button{
