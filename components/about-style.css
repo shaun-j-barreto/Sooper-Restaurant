@@ -1,0 +1,15 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --priamary-color: #d4af37;
+    --secondary-color: rgb(7, 7, 7);
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+    color: white;
+}
