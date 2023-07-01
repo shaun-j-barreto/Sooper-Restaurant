@@ -802,6 +802,9 @@ footer{
     .home-menu-heading{
         margin-top: 30px;
     }
+    .home-menu{
+        margin-bottom: 100px;
+    }
     .chef-container-grid{
         grid-template-areas: 
         'seven' 
@@ -861,9 +864,6 @@ footer{
 @media screen and (max-width: 836px){
     .hamburger{
         margin-right: 10px;
-    }
-    .hero-header{
-        font-size: 40px;
     }
     .gallery-heading{
     font-size: 60px;
@@ -1090,13 +1090,21 @@ footer{
         line-height: 30px;
     }
     .gallery-heading{
-        font-size: 28px;
+        font-size: 40px;
         margin-top: 80px;
-        margin-left: 40px;
+        margin-left: 20px;
         letter-spacing: 1px;
     }
     .chef-container-grid > img{
         height: 1200px;
+    }
+}
+@media screen and (max-width: 380px){
+    .gallery-heading{
+        font-size: 32px;
+        margin-top: 80px;
+        margin-left: 20px;
+        letter-spacing: 1px;
     }
 }
 @media screen and (max-width: 360px) {
@@ -1143,9 +1151,8 @@ footer{
         height: 35px;  
     }
     .gallery-heading{
-        font-size: 28px;
         margin-top: 80px;
-        margin-left: 20px;
+        margin-left: 8px;
         letter-spacing: 1px;
     }
 }
