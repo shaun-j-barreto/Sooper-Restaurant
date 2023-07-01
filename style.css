@@ -141,7 +141,7 @@ body{
     display: block;
     z-index: 98;
     background-color: rgba(0, 0, 0, 0.897);
-    padding-top: 120px;
+    padding-top: 100px;
     transition: 0.5s;
 }
 .ham-navbar.is-active{
