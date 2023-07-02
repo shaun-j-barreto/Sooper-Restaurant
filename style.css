@@ -751,7 +751,21 @@ footer{
     color: var(--priamary-color);
 }
 /* ============================MEDIA Queries =======================================*/
+@media screen and (max-width: 2640px){
+    .container{
+        height: 1200px;
+    }
+    .home-menu-grid-container{
+        grid-template-areas: 
+        'one two'
+        'four three'
+        'five six';
+    }
+}
 @media screen and (max-width: 1440px){
+    .container{
+        height: 800px;
+    }
     .home-menu-grid-container{
         grid-template-areas: 
         'one two'
