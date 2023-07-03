@@ -68,6 +68,7 @@ body{
     left: 52%;
     transform: translate(-50%, -50%);
     letter-spacing: 20px;
+    
 }
 .hero-header:hover{
     opacity: 1;
