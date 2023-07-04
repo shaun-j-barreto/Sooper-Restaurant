@@ -15,6 +15,7 @@ body{
     padding: 0;
     background-color: var(--secondary-color);
     color: white;
+    font-family: 'Chakra Petch', sans-serif;
 }
 .container{
     position: relative;
@@ -54,7 +55,6 @@ body{
     }
 }
 .hero-header{
-    font-family: 'Chakra Petch', sans-serif;
     font-size: 250px;
     text-transform: uppercase;
     font-weight: 700;
@@ -149,7 +149,6 @@ body{
     left:0%;
 }
 .ham-navbar a{
-    font-family: 'Chakra Petch', sans-serif;
     font-size: 30px;
     font-weight: 600;
     display: block;
@@ -183,7 +182,6 @@ body{
     background-color: rgb(12, 9, 1);
 }
 .home-menu-heading{
-    font-family: 'Chakra Petch', sans-serif;
     font-weight: 700;
     margin-left: 80px;
     padding: 10px;
@@ -197,7 +195,6 @@ body{
     -webkit-text-stroke-width: 2px;
 }
 .home-menu-content{
-    font-family: 'Chakra Petch', sans-serif;
     font-weight: 500;
     font-size: 20px;
     color: var(--priamary-color);
@@ -255,7 +252,6 @@ body{
 }
 .home-menu-button::after{
     content: 'View';
-    font-family: 'Chakra Petch', sans-serif;
     font-weight: 500;
     letter-spacing: 5px;
     text-align: center;
@@ -329,7 +325,6 @@ body{
     background-color: rgba(14, 9, 1, 0.534);
 }
 .chef-section-heading{
-    font-family: 'Chakra Petch', sans-serif;
     font-weight: 700;
     margin: 0 auto;
     padding: 10px;
@@ -344,7 +339,6 @@ body{
     margin-bottom: 5px;
 }
 .chef-section-content{
-    font-family: 'Chakra Petch', sans-serif;
     display: block;
     font-size: 20px;
     font-weight: 400;
@@ -392,7 +386,6 @@ body{
     position: relative;
 }
 .gallery-heading{
-    font-family: 'Chakra Petch', sans-serif;
     font-size: 80px;
     margin-top: 150px;
     margin-left: 50px;
@@ -482,7 +475,6 @@ body{
 }
 .view-button::after{
     content: 'View';
-    font-family: 'Chakra Petch', sans-serif;
     font-weight: 500;
     letter-spacing: 5px;
     text-align: center;
@@ -532,7 +524,6 @@ body{
     height: 100%;
     margin-top: 20px;
     margin-left: 30px;
-    font-family: 'Chakra Petch', sans-serif;
     font-size: 25px;
     font-weight: 500;
     color: var(--priamary-color);
@@ -559,7 +550,6 @@ body{
     grid-area: 1 / 3 / 3 / 5;
 }
 .contact-heading{
-    font-family: 'Chakra Petch', sans-serif;
     font-size: 60px;
     font-weight: 700;
     padding-top: 30px;
@@ -595,7 +585,6 @@ iframe{
 }
 .news-heading-one{
     text-align: center;
-    font-family: 'Chakra Petch', sans-serif;
     font-size: 25px;
     font-weight: 500;
     margin-top: 20px;
@@ -608,7 +597,6 @@ iframe{
 }
 .news-heading-two{
     text-align: center;
-    font-family: 'Chakra Petch', sans-serif;
     font-size: 40px;
     font-weight: 700;
     color: var(--priamary-color);
@@ -619,7 +607,6 @@ iframe{
 }
 .news-content{
     text-align: center;
-    font-family: 'Chakra Petch', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: var(--priamary-color);
@@ -656,7 +643,6 @@ margin-top: 30px;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Chakra Petch', sans-serif;
     font-size: 20px;
     font-weight: 600;
     padding: 7px 50px 7px 50px;
@@ -701,7 +687,6 @@ footer{
 }
 .footer-heading{
     margin-top: 10px;
-    font-family: 'Chakra Petch', sans-serif;
     font-size: 25px;
     font-weight: 700;
     background: -webkit-linear-gradient(#f8c322, #ffc800, #b96300, #EDCB01);
@@ -713,7 +698,6 @@ footer{
 .sitemap, .opening-section, .location-section,.social-section{
     margin-left: 40px;
     margin-top: 10px;
-    font-family: 'Chakra Petch', sans-serif;
 }
 .sitemap , .location-section , .opening-section > h4{
     color: var(--priamary-color);
@@ -744,7 +728,6 @@ footer{
     cursor: pointer;
 }
 .copyright{
-    font-family: 'Chakra Petch', sans-serif;
     font-size: 16px;
     font-weight: 500;
     text-align: center;

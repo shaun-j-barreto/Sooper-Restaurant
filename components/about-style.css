@@ -15,11 +15,11 @@ body{
     font-family: 'Chakra Petch', sans-serif;
 }
 .about-image-container{
-    background-image: url(/images/restaurant.jpg);
+    background-image: url(/images/restaurant-3.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 700px;
     position: relative;
     background-position: center;
     justify-content: center;
@@ -28,38 +28,72 @@ body{
     padding: 0;
     text-align: center;
 }
-.about-image-heading{
-    font-size: 200px;
+.trasparent-background{
+    background-color: rgba(0, 0, 0, 0.36);
+    z-index: 1;
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 40%;
-    left: 52%;
+    top: 55%;
+    left: 50%;
+    padding: 10px;
+    width: 800px;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: 1s;
+}
+.trasparent-background:hover{
+    background-color: rgba(0, 0, 0, 0.612);
+}
+.about-image-heading{
+    font-size: 150px;
     font-weight: 700;
-    background: -webkit-linear-gradient(#1a2b07, #728b1a,#1a2b07,  #728b1a);
+    background: -webkit-linear-gradient(#152206, #627911, #f5990f, #383103);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    opacity: 0.7;
-    line-height: 200px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    
+}
+.about-image-heading:nth-child(1){
+    top: 5%;
+    left: 25%;
+}
+.about-image-heading:nth-child(2){
+    top: 40%;
+    left: 20%;
 }
 .about-container{
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(16,100px);
+    grid-template-rows: repeat(5,100px);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: black;
 }
 .about-container-block.one{
     grid-area:1/1/2/5;
     /* background-color: bisque; */
-    text-align: center;
     align-self: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.about-container-heading{
     font-size: 50px;
     font-weight: 600;
-    color: var(--priamary-color);
+    background: -webkit-linear-gradient(#f8c322, #ffc800, #b96300, #EDCB01);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .about-container-block.two{
     grid-area: 2/1/6/5;
     /* background-color: blueviolet; */
-    padding: 80px;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .about-container > img{
@@ -67,4 +101,9 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.about-container-content{
+    font-size: 20px;
+    color: var(--priamary-color);
+    font-weight: 500;
 }
