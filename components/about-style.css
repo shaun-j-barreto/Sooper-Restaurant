@@ -68,14 +68,14 @@ body{
 .about-container{
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(5,100px);
+    grid-template-rows: repeat(6,80px);
     width: 90%;
     margin: 0 auto;
     margin-top: 100px;
     background-color: black;
 }
 .about-container-block.one{
-    grid-area:1/1/2/5;
+    grid-area:1/1/3/5;
     /* background-color: bisque; */
     align-self: center;
     width: 75%;
@@ -88,22 +88,24 @@ body{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
 }
 .about-container-block.two{
-    grid-area: 2/1/6/5;
+    grid-area: 2/1/7/5;
     /* background-color: blueviolet; */
     width: 75%;
     margin: 0 auto;
 }
 
 .about-container > img{
-    grid-area: 1/5/6/9;
+    grid-area: 1/5/7/9;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 .about-container-content{
-    font-size: 20px;
+    padding-top: 30px;
+    font-size: 18px;
     color: var(--priamary-color);
     font-weight: 500;
 }
