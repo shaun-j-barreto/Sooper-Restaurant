@@ -176,10 +176,10 @@ body{
     width: 100%;
     background-color: var(--secondary-color);
     overflow: hidden;
-    transition: .6s ease-in-out;
+    transition: .4s ease-in-out;
 }
 .menu-section:hover{
-    background-color: rgb(12, 9, 1);
+    background-color: rgb(7, 6, 1);
 }
 .home-menu-heading{
     font-weight: 700;
