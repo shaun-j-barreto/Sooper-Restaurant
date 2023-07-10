@@ -76,7 +76,6 @@ body{
 }
 .about-container-block.one{
     grid-area:1/1/3/5;
-    /* background-color: bisque; */
     align-self: center;
     width: 75%;
     margin: 0 auto;
@@ -93,7 +92,6 @@ body{
 }
 .about-container-block.two{
     grid-area: 2/1/7/5;
-    /* background-color: blueviolet; */
     width: 75%;
     margin: 0 auto;
 }
@@ -110,7 +108,6 @@ body{
 }
 .about-container-block.four{
     grid-area: 8/5/13/9;
-    /* background-color: blueviolet; */
     width: 75%;
     margin: 0 auto;
 }
@@ -142,8 +139,6 @@ body{
     margin: 0 auto;
     margin-top: 20px;
     position: relative;
-    /* background-color: rgb(9, 10, 9); */
-  
 }
 .slider-container::before{
     content: "";
