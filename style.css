@@ -70,12 +70,13 @@ body{
   
   #hero-hover:hover {
     opacity: 1;
-    font-size: 270px;
+    font-size: 250px;
   }
   
   .hero-text {
     background: linear-gradient(#0c1403, #728b1a, #f5990f, #0a0901);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 .navbar{
