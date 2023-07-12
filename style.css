@@ -727,14 +727,17 @@ footer{
 .social-section > a{
     padding-right: 10px;
 }
+.sitemap > a{
+    text-decoration: none;
+    color: var(--priamary-color);
+    border: none;
+    appearance: none;
+}
 .sitemap > h4{
     padding-bottom: 7px;
 }
-.sitemap > h4:hover{
-    background: -webkit-linear-gradient(#f8c322, #ffc800, #b96300, #EDCB01);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+.sitemap > a:hover{
+    color: rgb(145, 120, 10);
     font-size: 21px;
     cursor: pointer;
 }
