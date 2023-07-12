@@ -173,9 +173,8 @@ body{
 }
 .menu-section{
     width: 100%;
-    /* background-color: var(--secondary-color); */
     overflow: hidden;
-    transition: .4s ease-in-out;
+    transition: .5s ease-in-out;
     position: relative;
 }
 .menu-section::before{
@@ -185,9 +184,9 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url(images/background.jpg);
+    background-image: url(images/background\ \(1\).jpg);
     z-index: -1;
-    opacity: 0.2;
+    opacity: 0.1;
 }
 .menu-section:hover{
     background-color: rgba(7, 6, 1, 0.555);
@@ -375,6 +374,7 @@ body{
     background-image: url(images/frame.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0px 0px 10px 0px rgba(218, 137, 32, 0.555);
 }
 .image-gallery-grid{
         box-sizing: border-box;
@@ -505,7 +505,7 @@ body{
     width: 90%;
     margin: 0 auto;
     padding: 5px 5px 5px 5px;
-    background-image: linear-gradient(50deg,#000000, #0e0b04, #3f2900, #1b1800);
+    box-shadow: 0px 0px 15px 3px rgba(218, 137, 32, 0.555);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 80px;
@@ -965,7 +965,7 @@ footer{
         margin-left: 50px;
     }
     .contact-frame{
-        background-image: none;
+        box-shadow: none;
     }
     .contact-container{
         padding: 5px;
