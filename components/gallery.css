@@ -14,3 +14,12 @@ body{
     color: white;
     font-family: 'Chakra Petch', sans-serif;
 }
+
+.gallery-image-grid{
+    width: 90%;
+    background-color: black;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(50,1fr);
+    grid-template-rows: repeat(50,15px);
+}
