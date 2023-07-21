@@ -14,7 +14,55 @@ body{
     color: white;
     font-family: 'Chakra Petch', sans-serif;
 }
-
+.image-slider-section-one{
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px 0px;
+    opacity: 0.5;
+}
+.image-slider-one{
+    display: inline-block;
+    animation: 50s slide-one infinite linear;
+}
+.image-slider-one > img{
+    width: 300px;
+    height: 300px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(34, 20, 0);
+}
+.image-slider-section-two{
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0.5;
+}
+.image-slider-two{
+    display: inline-block;
+    animation: 50s slide-two infinite linear;
+}
+.image-slider-two > img{
+    width: 300px;
+    height: 300px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(34, 20, 0);
+}
+@keyframes slide-one {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+@keyframes slide-two {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
 .gallery-image-grid{
     width: 90%;
     /* background-color: black; */
@@ -31,6 +79,7 @@ body{
     box-shadow: 0px 0px 10px 1px rgb(41, 29, 0);
     transition: transform 0.3s;
     border:2px solid transparent;
+    border-radius: 10px;
 }
 .gallery-image-grid > img:hover{
     border: 1px solid rgba(255, 145, 0, 0.247);
