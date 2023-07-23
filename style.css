@@ -1036,14 +1036,17 @@ footer{
     }
 }  
 @media screen and (max-width: 512px) {
+    .container{
+        height: 600px;
+    }
     .hero-header{
-        font-size: 70px;
+        font-size: 80px;
         top: 40%;
         left: 52%;
         letter-spacing: 8px;
     } 
     #hero-hover:hover{
-        font-size: 80px;
+        font-size: 90px;
     }
     .image-frame{
         margin-top: 60px;
