@@ -727,6 +727,14 @@ footer{
 .social-section > a{
     padding-right: 10px;
 }
+.social-section i{
+    position: relative;
+    bottom: 0px;
+    transition: 0.3s;
+}
+.social-section i:hover{
+    bottom: 2px;
+}
 .sitemap > a{
     text-decoration: none;
     color: var(--priamary-color);
