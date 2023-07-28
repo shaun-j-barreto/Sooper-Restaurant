@@ -11,5 +11,29 @@ body{
     margin: 0;
     padding: 0;
     background-color: var(--secondary-color);
+    font-family: 'Chakra Petch', sans-serif;
     color: white;
+}
+.menu-heading-container{
+    width: 95%;
+    height: 300px;
+    background-image: linear-gradient(rgb(7, 6, 0),#111111,rgb(7, 6, 0));
+    box-shadow: 0px 1px 20px 5px black;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.menu-heading-container h1{
+    font-size: 200px;
+    text-align: center;
+    position: relative;
+    background-image: url(/images/gold3.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }

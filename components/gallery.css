@@ -27,7 +27,7 @@ body{
 }
 .image-slider-one{
     display: inline-block;
-    animation: 50s slide-one infinite linear;
+    animation: 30s slide-one infinite linear;
 }
 .image-slider-one > img{
     width: 300px;
@@ -45,7 +45,7 @@ body{
 }
 .image-slider-two{
     display: inline-block;
-    animation: 50s slide-two infinite linear;
+    animation: 30s slide-two infinite linear;
 }
 .image-slider-two > img{
     width: 300px;
