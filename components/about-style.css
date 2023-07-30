@@ -16,7 +16,7 @@ body{
     overflow-x: hidden;
 }
 .about-image-container{
-    background-image: url(/images/restaurant-3.jpeg);
+    background-image: url(../images/restaurant-3.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -160,7 +160,7 @@ body{
 .slider-container::before{
     content: "";
     position: absolute;
-    background-image: url(/images/restaurant-3.jpeg);
+    background-image: url(../images/restaurant-3.jpeg);
     background-repeat: no-repeat;
     background-size:1500px;
     background-position: center;
@@ -250,7 +250,7 @@ body{
     box-shadow: 1px 0px 5px 0px rgba(218, 137, 32, 0.555);
 }
 .item-frame:hover{
-    background-image: url(/images/frame.jpg);
+    background-image: url(../images/frame.jpg);
 }
 .items{
     width: 300px;
