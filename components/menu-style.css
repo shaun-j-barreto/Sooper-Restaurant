@@ -108,9 +108,6 @@ body{
     position: relative;
     border-radius: 10px;
 }
-.section.soup{
-    /* margin-top: 100px; */
-}
 .section.drink,.section.snacks{
     margin-top: 10px;
 }
