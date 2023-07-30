@@ -16,7 +16,7 @@ body{
     overflow-x: hidden;
 }
 .about-image-container{
-    background-image: url(../images/restaurant-3.jpeg);
+    background-image: url(/images/restaurant-3.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
