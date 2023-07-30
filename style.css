@@ -385,7 +385,8 @@ body{
     background-image: url(images/frame.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 0px 10px 0px rgba(218, 137, 32, 0.555);
+    box-shadow: 0px 1px 20px 5px black;
+
 }
 .image-gallery-grid{
         box-sizing: border-box;
@@ -516,7 +517,8 @@ body{
     width: 90%;
     margin: 0 auto;
     padding: 5px 5px 5px 5px;
-    box-shadow: 0px 0px 15px 3px rgba(218, 137, 32, 0.555);
+    box-shadow: 0px 1px 20px 5px black;
+
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 80px;

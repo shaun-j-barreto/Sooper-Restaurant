@@ -17,7 +17,7 @@ body{
 }
 .menu-heading-container{
     width: 95%;
-    height: 300px;
+    height: 500px;
     margin: 0 auto;
     position: relative;
     top: 20px;
@@ -26,7 +26,6 @@ body{
     align-items: center;
     border-radius: 10px;
     overflow: hidden;
-
 }
 #burger{
     position: absolute;
@@ -94,10 +93,10 @@ body{
 }
 @keyframes floating2 {
     from{
-        top: -20px;
+        top: 60px;
     }
     to{
-        top: 20px;
+        top: 120px;
     }
 }
 .section{
@@ -110,7 +109,7 @@ body{
     border-radius: 10px;
 }
 .section.soup{
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 .section.drink,.section.snacks{
     margin-top: 10px;
@@ -184,13 +183,116 @@ body{
 }
 /* ===================Media Queries=========================== */
 /* ===================Media Queries=========================== */
-
+@media screen and (max-width:1200px) {
+    .menu-heading-container{
+        width: 100%;
+    }
+    .menu-heading-container h1{
+        font-size: 150px;
+    }
+    #burger{
+        left: 5px;
+    }
+    #mushroom{
+        right: 5px;
+    }
+}
+@media screen and (max-width:700px) {
+    .menu-heading-container{
+        height: 400px;
+    }
+    .menu-heading-container h1{
+        letter-spacing: 8px;
+    }
+    #burger{
+        width: 200px;
+        height: 200px;
+        left: -40px;
+    }
+    #mushroom{
+        width: 200px;
+        height: 200px;
+        right: -40px;
+    }
+    #soju{
+        width: 350px;
+        height: 350px;
+    }
+}
+@media screen and (max-width:500px) {
+    .menu-heading-container{
+        height: 400px;
+    }
+    .menu-heading-container h1{
+        font-size: 100px;
+        letter-spacing: 8px;
+    }
+    #burger{
+        width: 150px;
+        height: 150px;
+        left: -20px;
+    }
+    #mushroom{
+        width: 150px;
+        height: 150px;
+        right: -20px;
+    }
+    #soju{
+        width: 300px;
+        height: 300px;
+    }
+    @keyframes floating2 {
+        from{
+            top: 80px;
+        }
+        to{
+            top: 140px;
+        }
+    }
+}
 @media screen and (max-width: 400px) {
+    .menu-heading-container{
+        top: 0px;
+    }
     .section{
         width: 100%;
         border-radius: 0px;
     }
     .menu-items-container{
         grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    }
+}
+@media screen and (max-width:350px) {
+    .menu-heading-container{
+        height: 300px;
+    }
+    .menu-heading-container h1{
+        font-size: 80px;
+        letter-spacing: 8px;
+    }
+    #burger{
+        width: 120px;
+        height: 120px;
+        left: -20px;
+    }
+    #mushroom{
+        width: 120px;
+        height: 120px;
+        right: -20px;
+    }
+    #soju{
+        width: 280px;
+        height: 280px;
+    }
+    @keyframes floating2 {
+        from{
+            top: 70px;
+        }
+        to{
+            top: 130px;
+        }
+    }
+    .menu-content-heading{
+        font-size: 55px;
     }
 }
