@@ -13,7 +13,7 @@ body{
     background-color: var(--secondary-color);
     color: white;
     font-family: 'Chakra Petch', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .about-image-container{
     background-image: url(../images/restaurant-3.jpeg);
