@@ -13,12 +13,11 @@ body{
     background-color: var(--secondary-color);
     font-family: 'Chakra Petch', sans-serif;
     color: white;
+    /* overflow: hidden; */
 }
 .menu-heading-container{
     width: 95%;
     height: 300px;
-    /* background-image: linear-gradient(rgb(7, 6, 0),#111111,rgb(7, 6, 0));
-    box-shadow: 0px 1px 20px 5px black; */
     margin: 0 auto;
     position: relative;
     top: 20px;
@@ -26,6 +25,47 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    overflow: hidden;
+
+}
+#burger{
+    position: absolute;
+    left: 10px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.7;
+    animation-name: floating2;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#mushroom{
+    position: absolute;
+    right: 10px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.7;
+    animation-name: floating2;
+    animation-duration: 1.8s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#soju{
+    position: absolute;
+    float: center;
+    width: 450px;
+    height: 450px;
+    opacity: 0.3;
+    animation-name: floating2;
+    animation-duration: 2.2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
 }
 .menu-heading-container h1{
     font-size: 200px;
@@ -38,7 +78,7 @@ body{
     -webkit-background-clip: text;
     color: transparent;
     animation-name: floating;
-    animation-duration: 2s;
+    animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
     animation-iteration-count: infinite;
@@ -52,10 +92,17 @@ body{
         top: 15px;
     }
 }
-
+@keyframes floating2 {
+    from{
+        top: -20px;
+    }
+    to{
+        top: 20px;
+    }
+}
 .section{
     width: 95%;
-    background-image: linear-gradient(rgb(7, 6, 0),#111111,rgb(7, 6, 0));
+    background-color: rgb(10, 10, 10);
     box-shadow: 0px 1px 20px 5px black;
     border: 2px solid black;
     margin: 0 auto;
@@ -88,24 +135,62 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 30px;
 }
 .menu-items-border{
     background-image: url(/images/frame.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     border-radius: 10px;
+    box-shadow: 0px 1px 10px 5px black;
 }
 .menu-items{
-    /* height: 400px; */
-    margin-top: 15px;
-    /* background-color: white; */
+    width: 100%;
+    margin-top: 12px;
 }
 .menu-items > img{
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    /* border-radius: 10px; */
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
     object-fit: cover;
+}
+.menu-content{
+    background-color: rgb(5, 5, 5);
+    position: relative;
+}
+.menu-item-heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 10px;
+    background: -webkit-linear-gradient(#f8c322, #ffc800, #b96300, #EDCB01);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.price-calorie-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 20px 0px;
+}
+.price-calorie-container h4{
+    background: -webkit-linear-gradient(#f8c322, #fdca12, #a37800, #EDCB01);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* ===================Media Queries=========================== */
+/* ===================Media Queries=========================== */
+
+@media screen and (max-width: 400px) {
+    .section{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .menu-items-container{
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    }
 }
