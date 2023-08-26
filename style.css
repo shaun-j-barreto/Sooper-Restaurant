@@ -17,6 +17,16 @@ body{
     color: white;
     font-family: 'Chakra Petch', sans-serif;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #1f1f1f;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--priamary-color);
+    border-radius: 2px;
+}
 .container {
     position: relative;
     /* text-align: center; */
